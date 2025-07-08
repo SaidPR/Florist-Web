@@ -1,37 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>ESTEFANIACREA</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
    <!-- Principal -->
     <section>
-        <nav>
+        <nav id="menu">
             <a href="#INICIO">Inicio</a>
-            <a href="#PRESENTACION">Presentación</a>
             <a href="#HISTORIA">Historia</a>
             <a href="#CONTACTO">Contacto</a>
         </nav>
-        <h1>TE PRESENTAMOS FLORIST MANAGEMENT</h1>
-        <h2>Controla tu floristeria sin problemas.</h2>
+        <div id="INICIO">    
+            <h1>FLORIST MANAGEMENT</h1>
+            <h2>Controla tu floristeria sin problemas</h2>
+        </div>
     </section>
    <!-- Presentacion del software -->
     <section>
-        <!--
-        <div>
-            <img src="assets/EC-LogIn.png" alt="LogIn" width="650"/>
-            <h3>Inicia sesión con tu cuenta de administrador.</h3>
+        <div class="slider-box" align="center">
+            <ul>
+                <li> <img src="assets/EC-LogIn.png" alt=""/> </li>
+
+                <li> <img src="assets/EC-Inicio.png" alt=""/> </li>
+                
+                <li> <img src="assets/EC-Inv.png" alt=""/> </li>
+
+                <li> <img src="assets/EC-Agendar.png" alt=""/> </li>
+            </ul>
         </div>
-        -->
     </section>
     <!-- Historia -->
     <section>
-        <div>
-            <img src="assets/EC-Historia.jpg" alt="Historia" width="650"/>
-            <div id="historia">
-                <h2>Historia</h2>
+        <div class="historia-container">
+            <img src="assets/EC-Historia.jpg" alt="Historia" />
+            <div id="HISTORIA">
+                <h2 align="center">Historia</h2>
                 <p>Flosrist Management surgio a partir de varios retos que enfrentaba la floristeria como:</p>
                 <ul>
                     <li>Los pedidos se anotaban en libretas, y a veces se olvidaban.</li>
@@ -40,13 +46,13 @@
                     <li>No existían reportes para evaluar el desempeño del negocio.</li>
                 </ul>
                 <p>Esto dificultaba la organización, la atención al cliente y la toma de decisiones basada en datos.</p>
-                <p>¡Descarga la presentación y mira el proceso completo!</p>
+                <p><strong>¡Descarga la presentación y mira el proceso completo!</strong></p>
                 <a href="assets/JynxCode.pdf" download>Descargar PDF</a>
             </div>
         </div>
     </section>    
     <!-- Footer -->
-    <footer id="contacto">
+    <footer id="CONTACTO">
         <p>Desarrollado por Said Piñones</p>
         <p>Contacto: </p> <a href="mailto:ramoszaid5@gmail.com">ramoszaid5@gmail.com</a>
         <!-- Mensaje de aclaración -->
