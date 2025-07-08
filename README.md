@@ -4,13 +4,6 @@ Bienvenido al repositorio de **Florist Management**, una interfaz web de present
 
 ---
 
-## 📸 Vista previa
-
-![Inicio](assets/EC-Inicio.png)
-![Inventario](assets/EC-Inv.png)
-![Agenda](assets/EC-Agendar.png)
-
----
 
 ## 🚀 Características
 
@@ -58,6 +51,12 @@ Florist-Web/
    ```
 2. Abre `index.html` en tu navegador favorito.
 3. Asegúrate de tener acceso a la carpeta `assets/` para visualizar correctamente las imágenes.
+
+---
+
+## 🌐 Despliegue
+
+La página web fue desplegada a través de GitHub Pages, puedes ubicarla en el apartado **Deployments**, o por medio de [https://saidpr.github.io/Florist-Web/](https://saidpr.github.io/Florist-Web/)
 
 ---
 
