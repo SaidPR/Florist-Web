@@ -1,4 +1,4 @@
-# 🌸 Florist Management — ESTEFANIACREA
+# 🌸 Florist Management
 
 Bienvenido al repositorio de **Florist Management**, una interfaz web de presentación diseñada para mostrar el sistema de gestión de floristerías. Este sitio tiene como objetivo ilustrar de manera clara, estética y funcional los beneficios del software.
 
