@@ -2,43 +2,80 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>ESTEFANIACREA</title>
+    <title>Florist Management</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-   <!-- Principal -->
-    <section>
+    <header class="hero" id="INICIO">
         <nav id="menu">
-            <a href="#INICIO">Inicio</a>
-            <a href="#HISTORIA">Historia</a>
-            <a href="#CONTACTO">Contacto</a>
+            <div class="brand">
+                <span class="brand-mark">FM</span>
+                <span class="brand-name">Florist Management</span>
+            </div>
+            <div class="nav-links">
+                <a href="#INICIO">Inicio</a>
+                <a href="#HISTORIA">Historia</a>
+                <a href="#CONTACTO">Contacto</a>
+                <a class="pill" href="assets/JynxCode.pdf" download>Descargar PDF</a>
+            </div>
         </nav>
-        <div id="INICIO">    
-            <h1>FLORIST MANAGEMENT</h1>
-            <h2>Controla tu floristeria sin problemas</h2>
+        <div class="hero-content">
+            <p class="eyebrow">Gestión pensada para floristerías en crecimiento</p>
+            <h1>Florist Management</h1>
+            <p class="lede">Controla tu floristería sin problemas: agenda pedidos, vigila el inventario y entiende tus ventas con reportes claros.</p>
+            <div class="hero-actions">
+                <a class="btn primary" href="assets/JynxCode.pdf" download>Descargar presentación</a>
+                <a class="btn ghost" href="#HISTORIA">Ver historia</a>
+            </div>
+            <div class="hero-metrics">
+                <div class="metric">
+                    <span class="metric-value">24/7</span>
+                    <span class="metric-label">Operación sin papel</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">+40%</span>
+                    <span class="metric-label">Pedidos mejor organizados</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">Listo</span>
+                    <span class="metric-label">Para escritorio</span>
+                </div>
+            </div>
         </div>
-    </section>
-   <!-- Presentacion del software -->
-    <section>
-        <div class="slider-box" align="center">
-            <ul>
-                <li> <img src="assets/EC-LogIn.png" alt=""/> </li>
-
-                <li> <img src="assets/EC-Inicio.png" alt=""/> </li>
-                
-                <li> <img src="assets/EC-Inv.png" alt=""/> </li>
-
-                <li> <img src="assets/EC-Agendar.png" alt=""/> </li>
-            </ul>
+        <div class="hero-visual">
+            <div class="floating-card">
+                <h3>Panel limpio</h3>
+                <p>Inventarios, agendas y reportes en un solo flujo.</p>
+            </div>
+            <div class="floating-card alt">
+                <h3>Clientes felices</h3>
+                <p>Pedidos sin olvidar, entregas a tiempo y seguimiento claro.</p>
+            </div>
         </div>
-    </section>
-    <!-- Historia -->
-    <section>
-        <div class="historia-container">
-            <img src="assets/EC-Historia.jpg" alt="Historia" />
-            <div id="HISTORIA">
-                <h2 align="center">Historia</h2>
-                <p>Flosrist Management surgio a partir de varios retos que enfrentaba la floristeria como:</p>
+    </header>
+
+    <main>
+        <section class="showcase" aria-label="Capturas del software">
+            <div class="section-header">
+                <p class="eyebrow">Vistazo rápido</p>
+                <h2>Una interfaz clara para tu equipo</h2>
+                <p class="section-copy">Estructura ligera con pantallas enfocadas en lo que importa: pedidos, inventario e historial.</p>
+            </div>
+            <div class="slider-box">
+                <ul>
+                    <li><img src="assets/FM-LogIn.webp" alt="Pantalla de inicio de sesión" /></li>
+                    <li><img src="assets/FM-Inv.webp" alt="Inventario de productos" /></li>
+                    <li><img src="assets/FM-Agendar.webp" alt="Agenda de pedidos" /></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="historia-container" id="HISTORIA">
+            <img src="assets/FM-Historia.webp" alt="Historia" />
+            <div class="historia-copy">
+                <p class="eyebrow">Por qué nació</p>
+                <h2>Historia</h2>
+                <p>Florist Management surgió a partir de varios retos que enfrentaba la floristería como:</p>
                 <ul>
                     <li>Los pedidos se anotaban en libretas, y a veces se olvidaban.</li>
                     <li>El inventario se controlaba de forma informal.</li>
@@ -46,17 +83,27 @@
                     <li>No existían reportes para evaluar el desempeño del negocio.</li>
                 </ul>
                 <p>Esto dificultaba la organización, la atención al cliente y la toma de decisiones basada en datos.</p>
-                <p><strong>¡Descarga la presentación y mira el proceso completo!</strong></p>
-                <a href="assets/JynxCode.pdf" download>Descargar PDF</a>
+                <p><strong>Descarga la presentación y mira el proceso completo.</strong></p>
+                <div class="historia-actions">
+                    <a class="btn primary" href="assets/JynxCode.pdf" download>Descargar PDF</a>
+                    <a class="btn ghost" href="#CONTACTO">Hablemos</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="CONTACTO">
+        <div class="footer-content">
+            <div>
+                <p class="eyebrow">Desarrollado por Said Ramos</p>
+                <p>Flujo digital que mantiene tu floristería en orden.</p>
+            </div>
+            <div class="footer-contact">
+                <p>Contacto</p>
+                <a href="mailto:ramoszaid5@gmail.com">ramoszaid5@gmail.com</a>
             </div>
         </div>
-    </section>    
-    <!-- Footer -->
-    <footer id="CONTACTO">
-        <p>Desarrollado por Said Piñones</p>
-        <p>Contacto: </p> <a href="mailto:ramoszaid5@gmail.com">ramoszaid5@gmail.com</a>
-        <!-- Mensaje de aclaración -->
-        <p style="margin-top:20px; color: #b00;">
+        <p class="footer-note">
             Nota: Este software es solo una demostración y no está disponible para descarga pública.
         </p>
     </footer>
