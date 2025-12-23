@@ -1,6 +1,6 @@
 # 🌸 Florist Management — ESTEFANIACREA
 
-Bienvenido al repositorio de **Florist Management**, una interfaz web de presentación diseñada para mostrar el sistema de gestión de floristerías **ESTEFANIACREA**. Este sitio tiene como objetivo ilustrar de manera clara, estética y funcional los beneficios del software.
+Bienvenido al repositorio de **Florist Management**, una interfaz web de presentación diseñada para mostrar el sistema de gestión de floristerías. Este sitio tiene como objetivo ilustrar de manera clara, estética y funcional los beneficios del software.
 
 ---
 
@@ -30,10 +30,9 @@ Bienvenido al repositorio de **Florist Management**, una interfaz web de present
 Florist-Web/
 │
 ├── assets/                # Imágenes y PDF de presentación
-│   ├── EC-Inicio.png
-│   ├── EC-LogIn.png
-│   ├── EC-Inv.png
-│   ├── EC-Agendar.png
+│   ├── FM-LogIn.webp
+│   ├── FM-Inv.webp
+│   ├── FM-Agendar.webp
 │   └── JynxCode.pdf
 │
 ├── index.html             # Página principal
@@ -62,13 +61,13 @@ La página web fue desplegada a través de GitHub Pages, puedes ubicarla en el a
 
 ## 📝 Nota
 
-Este proyecto es una **demostración visual** del sistema y no incluye funcionalidades backend ni bases de datos. El software completo está disponible en otro repositorio o por solicitud directa.
+Este proyecto es una **demostración visual** del sistema y no incluye funcionalidades backend ni bases de datos. El software completo por solicitud directa.
 
 ---
 
 ## 👤 Autor
 
-Desarrollado por **Said Piñones**  
+Desarrollado por **Said Ramos**  
 📧 ramoszaid5@gmail.com
 
 ---
